@@ -5,8 +5,11 @@ from transformers import pipeline
 sentiment_analysis = pipeline("sentiment-analysis")
 
 st.title("Análisis de Sentimientos")
-user_input = st.text_area("Introduce un texto para analizar:")
+st.markdown("### 📝 Introduce un texto para analizar:")
+user_input = st.text_area("")
 
 if st.button("Analizar"):
     result = sentiment_analysis(user_input)
-    st.write(result) 
+    st.markdown("### 📊 Resultado:")
+    for res in result:
+        st.write(f"**Etiqueta:** {res['label']}, **Confianza:** {res['score']:.2f}") 
