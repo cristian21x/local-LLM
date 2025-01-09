@@ -1,6 +1,7 @@
 import streamlit as st
 from transformers import pipeline
 
+# Cargar el modelo de análisis de sentimientos
 sentiment_analysis = pipeline("sentiment-analysis")
 
 st.title("Análisis de Sentimientos")
