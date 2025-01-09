@@ -11,7 +11,7 @@ Este proyecto es una aplicación de Streamlit que permite a los usuarios interac
 
 ## Requisitos
 
-- Python 31 o superior
+- Python 3.11 o superior
 - [Streamlit](https://streamlit.io/)
 - [Transformers](https://huggingface.co/transformers/)
 
