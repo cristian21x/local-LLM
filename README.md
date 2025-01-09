@@ -19,7 +19,7 @@ Este proyecto es una aplicación de Streamlit que permite a los usuarios interac
 
 1. Clona este repositorio:
    ```bash
-   git clone https://github.com/tu_usuario/multi-model-app.git
+   git clone [https://github.com/tu_usuario/multi-model-app.git](https://github.com/cristian21x/local-LLM.git)
    cd multi-model-app
    ```
 
